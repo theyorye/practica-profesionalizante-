@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="jorge humberto perez baez">
+        <meta name="despription" content="blog de boquita">
+        <meta name="keywords" content="Boca, vamo boca, como salio boca">
+        <meta name="robots" content="index, Nofollow">
+        <title>Boca2</title>
+        <link rel="shortcut icon" href="imagenes/icon.png">
+        <style type="text/css"> 
+            table, th , td {
+                border:1px solid red
+            }
+        </style>
+        <link rel="stylesheet" href="estilo.css">
+
+    </head>
+        <h1>boca1 <a href="principal.html">click aqui</a></h1>
+        <h2>mas boca que nunca</h2>
+        <h3><a href="estructurahtml5.html">jugadores del club</a></h3>
+        <img src="imagenes/GNJVRWMIQFOFXBOVJKRN47TVSY.avif" alt="mascota dew boca" height="50px" width="150px">
+        <p> a continuacion matraremos dos listas una con las copas libertadores que gano el equipo 
+            <ol id="producto">
+                <li>28/05/1977</li>
+                <li>09/08/1978</li>
+                <li>21/06/2000</li>
+                <li>27/06/2001</li>
+                <li>02/07/2003</li>
+                <li>20/06/2007</li>
+            </ol>
+            <ol style="list-style:armenian">
+                <li>28/05/1977</li>
+                <li>09/08/1978</li>
+                <li>21/06/2000</li>
+                <li>27/06/2001</li>
+                <li>02/07/2003</li>
+                <li>20/06/2007</li>
+            </ol>
+        </p>
+        <!-- forma CORRECTA DE HACER TABLAS ESTANDAR -->
+        <table>
+            <thead>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>@email</th>
+                <th>resultados</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>jorge</td>
+                    <td>perez</td>
+                    <td>correo@gmail.com</td>
+                    <td > <img src="imagenes/desaprobado.png" height="100px" width="100px"></td>
+                </tr>
+                <tr>
+                    <td>humberto</td>
+                    <td>baez</td>
+                    <td>baez@gmail.com</td>
+                    <td><img src="imagenes/aprobado.png" height="100px"></td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- tablas convinadas-->
+        <table >
+            <tr>
+                <th>nombre</th>
+                <td>jorge</td>
+            </tr>
+            <tr   colspan="2">
+                <th >apellidos</th>
+                <td>perez</td> 
+                <td>baez</td>
+            </tr>
+            <tr>
+                <td>jsjsj</td>
+                <td>hahahah</td>
+            </tr>
+
+        </table>
+        <!--formulario con respuesta a la hora del envio -->
+        <form  name="form1"  action="respuestaformulario.html" method="post">
+            Tu nombre:<input type="text"><br>
+            tu apellido:<input type="text"><br>
+            mes de nacimiento: 
+            <select>
+                <option>enero</option>
+                <option>febrero</option>
+                <option>marzo</option>
+                <option>abril</option>
+            </select><br/>
+            contraseña:<input type="password"><br>
+            mensaje:<textarea name="mensaje"></textarea><br/>
+            enviar<input type="submit"><br>
+
+        </form>
+        <br/>
+        <!--formularios con fondo de color -->
+        <div id="from1" ">
+        <form>
+            <fieldset>
+            <legend>Tamaño del zumo de fruta</legend>
+            <p>
+            <input type="radio" name="size" value="small">
+            <label for="size_1">Pequeño</label>
+            </p>
+            <p>
+            <input type="radio" name="size" value="medium">
+            <label for="size_2">Mediano</label>
+            </p>
+            <p>
+            <input type="radio" name="size" value="large">
+            <label for="size_3">Grande</label>
+            </p>
+            </fieldset>
+        </form>
+        <br/>
+        <form name="genero" id="formgenero">
+            <fieldset>
+                <legend>selecione su genero</legend>
+                <p>
+                    <input type="radio" name="sexo" value="masculino">
+                    <label for="sexo_1">masculino</label>
+                </p>
+                <p>
+                    <input type="radio" name="sexo" value="fenemino">
+                    <label for="sexo_2">fenemino</label>
+                </p>
+                <p>
+                    <input type="radio" name="sexo" value="otro">
+                    <label for="sexo2">otro</label>
+                </p>
+            </fieldset>
+        </form><br/>
+        </div>
+        <form>
+            <fieldset>
+                <legend>marque los copas que tenga messi </legend>
+                <p>
+                    <input type="checkbox" name="sexo" value="copa1">
+                    <label for="copa_1">libertadores</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="sexo" value="copa2">
+                    <label for="copa_2">copa america</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="sexo" value="copa3">
+                    <label for="copa_3">mundial</label>
+                </p>
+            </fieldset>
+        </form>
+        <br/>
+        <form name="EnvioActividades" action="respuestaformulario.html" method="post" >
+            <fieldset>
+                <legend> envio del trabajo</legend>
+                <p>
+                    noombre:<input type="text"><br/>
+                    apellido:<input type="text"><br/>
+                    correo<input type="email"><br/>
+                    mensaje: <textarea></textarea><br/>
+                    archivo:<input type="file"><br/>
+                    enviar:<input type="submit">
+                </p>
+            </fieldset>
+        </form>
+        <p id="pie">
+        mucho texto <span style="background-color: tomato;">mucho texto con color de fondo </span>texto normal xd
+        </p>
+</html>

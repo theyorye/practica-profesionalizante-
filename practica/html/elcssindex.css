@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#contenedor{
+    width: 100%;
+    margin: 0px auto;
+}
+/* titulo*/
+header h1{
+    background-image: url(imagenes/boca-boca-juniors-wallpaper-preview.jpg);
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 300px;
+    color:#ffffff;
+    border-bottom: 10px splid #ffffff;
+
+}
+/* nav global*/
+nav{
+    background: #0f52e2;
+    height: 50px;
+    border-bottom: 5px solid #ffffff;
+    width: 100%;
+
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin:10px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.clear{
+    clear: both
+}
+#contenido{
+    float:left;
+    width:calc(80% - 60px);
+    min-height: 555px;
+    background: #ffffff;
+    padding: 40px;
+}
+.articulo{
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+
+}
+aside{
+    background: #ffffff;
+    width: calc(15% -20px);
+    min-height: 50px;
+    padding: 10px;
+    
+}
+footer{
+    background: #000;
+    color: #ffffff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+table,tr,th,td {
+    padding: 50px;
+    font-style: Arial;
+    caption-side: bottom;
+    color: #0e0101;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+td, th{
+    border: 3px solid black;
+    text-align: center;
+} 
+table{
+    margin: 0 auto;
+}
+#titulocent{
+    text-align: center;
+    text-decoration: underline;
+}

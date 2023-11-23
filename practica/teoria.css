@@ -1,0 +1,31 @@
+/* 
+aplicar estilos a todos los selectores Ej:
+p {
+    color: black;
+}
+ tambien se pueden poner un id ejemplo 
+ poniendo en el html 
+ un id="titulo" 
+ y en css
+ #titulo {
+    color:black;
+
+ }
+tambien se pueder poner clases 
+poniendo en el html
+<p id="parrafo principal">texto del parrafo<p>
+y een css
+p.texto {
+    color:black;
+}
+
+elementos dentro de los div 
+div h1 , div h2 , div p {
+    color:red;
+}
+
+para modificar propiedades de los selectores que no allamos selecionados 
+*{
+    color: manteca;
+}
+* /
